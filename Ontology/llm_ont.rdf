@@ -17,10 +17,52 @@
      xmlns:powder-s="http://www.w3.org/2007/05/powder-s#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45">
         <owl:imports rdf:resource="http://dbpedia.org/ontology/"/>
-        <owl:imports rdf:resource="http://dbpedia.org/property/"/>
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasArchitecture -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasArchitecture">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasSizeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasSizeOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasUseCase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasUseCase">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasVersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasVersion">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    </owl:ObjectProperty>
     
 
 
@@ -66,6 +108,22 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Open_Source_LMMs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Open_Source_LMMs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LanguageModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Proprietary_LMMs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Proprietary_LMMs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LanguageModel"/>
+    </owl:Class>
     
 
 
@@ -136,6 +194,25 @@
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WrittenData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/property/ -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/property/">
+        <rdfs:label xml:lang="en">0-</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
 
 
