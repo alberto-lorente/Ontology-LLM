@@ -226,9 +226,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
+    
+
+
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationMetrics -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationMetrics"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationMetrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
+    </owl:Class>
     
 
 
@@ -370,6 +378,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TestingData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DevelopmentData"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingData"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ValidationData"/>
     </owl:Class>
@@ -414,6 +423,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ValidationData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DevelopmentData"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
     </owl:Class>
     
 
