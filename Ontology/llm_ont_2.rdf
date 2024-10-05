@@ -73,7 +73,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasSizeOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-            <rdfs:comment>size of the model</rdfs:comment>
+        <rdfs:comment>size of the model</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -91,6 +91,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasVersion">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">model version</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -235,9 +236,23 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
     </owl:Class>
     
+
+
+<<<<<<< HEAD
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IA">
+        <rdfs:comment></rdfs:comment>
+    </owl:Class>
     
 
 
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LanguageModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LanguageModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IA"/>
+        <rdfs:comment>A subclass of AI focusing on models trained to understand and generate human language.</rdfs:comment>
+=======
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
@@ -274,6 +289,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Intrinsic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationMetrics"/>
         <rdfs:comment>Evaluates a property of the system itself.</rdfs:comment>
+>>>>>>> 6618bbd33e0ae20a8f168723bff7c867c2ee951b
     </owl:Class>
     
 
@@ -484,9 +500,10 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VisualData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VideoData"/>
     </owl:Class>
     
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VideoData"/>
+
 
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordEmbedding -->
 
@@ -503,25 +520,18 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
     </owl:Class>
     
+
+
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#deep_learning -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#deep_learning">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IA"/>
     </owl:Class>
-
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
     
 
 
+<<<<<<< HEAD
+=======
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Accuracy -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Accuracy">
@@ -714,6 +724,7 @@
     
 
 
+>>>>>>> 6618bbd33e0ae20a8f168723bff7c867c2ee951b
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
