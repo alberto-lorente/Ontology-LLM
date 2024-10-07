@@ -426,9 +426,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MachineLearningModel -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MachineLearningModel"/>
-        <rdfs:comment>A computational model that learns patterns from data to make predictions or decisions without being explicitly programmed for specific tasks.</rdfs:comment>
-            <rdfs:label>Machine Learning Model</rdfs:label>
-    </owl:Class>
+
     
 
 
