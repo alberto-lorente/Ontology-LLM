@@ -340,10 +340,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTasks -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTask -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTasks">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TasksSystem"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTask">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task"/>
     </owl:Class>
     
 
@@ -384,6 +384,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DeepLearningModel -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DeepLearningModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IAModel"/>
         <rdfs:comment>A type of machine learning model that uses neural networks with multiple layers to analyze data and perform complex tasks.</rdfs:comment>
     </owl:Class>
     
@@ -426,9 +427,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IA -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IAModel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IA"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IAModel"/>
     
 
 
@@ -461,6 +462,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MachineLearningModel -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MachineLearningModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IAModel"/>
         <rdfs:comment>To make the distinction between traditional machine learning algorithms and neural networks, we are splitting the classes in DeepLearningModel and MachineLearningModel</rdfs:comment>
     </owl:Class>
     
@@ -474,18 +476,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModelTasks -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModelTask -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModelTasks">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TasksSystem"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModelTask">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TasksSystem"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task"/>
         <rdfs:comment>## those individuals could be classes!!! IIIIFFFFF we decide to subsegment into more molecular classes</rdfs:comment>
     </owl:Class>
     
@@ -597,9 +599,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TasksSystem -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TasksSystem">
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task">
         <rdfs:comment>Tasks that machine learning and deep learning systems aim to solve.</rdfs:comment>
     </owl:Class>
     
@@ -707,14 +709,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#deep_learning -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#deep_learning">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IA"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
 
     <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
@@ -743,7 +737,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Anonymization -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Anonymization">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -775,7 +769,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#FakeNewsDetection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#FakeNewsDetection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -799,7 +793,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#InformationRetrieval -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#InformationRetrieval">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -807,7 +801,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LanguageGeneration -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LanguageGeneration">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -815,7 +809,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MachineTranslation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MachineTranslation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -839,7 +833,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NamedEntityRecognition -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NamedEntityRecognition">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -855,7 +849,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#POSTagging -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#POSTagging">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -879,7 +873,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Question-Answering -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Question-Answering">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -895,7 +889,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#RelationshipExtraction -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#RelationshipExtraction">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -903,7 +897,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SpeechRecognition -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SpeechRecognition">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -911,7 +905,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Summarization -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Summarization">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -919,7 +913,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TopicModeling -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TopicModeling">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
