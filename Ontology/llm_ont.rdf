@@ -476,9 +476,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModelTask -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalTask -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModelTask">
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalTask">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task"/>
     </owl:Class>
     
