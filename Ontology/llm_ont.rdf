@@ -404,9 +404,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Extrensic -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ExtrensicEvaluationMetric -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Extrensic">
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ExtrensicEvaluationMetric">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationMetrics"/>
         <rdfs:comment>Evaluates a task to be performed.</rdfs:comment>
     </owl:Class>
@@ -427,9 +427,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Intrinsic -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Intrinsic">
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationMetrics"/>
         <rdfs:comment>Evaluates a property of the system itself.</rdfs:comment>
     </owl:Class>
@@ -715,7 +715,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Accuracy -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Accuracy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Extrensic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ExtrensicEvaluationMetric"/>
     </owl:NamedIndividual>
     
 
@@ -739,7 +739,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Entropy -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Entropy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Intrinsic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric"/>
     </owl:NamedIndividual>
     
 
@@ -747,7 +747,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#F-1Score -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#F-1Score">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Extrensic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ExtrensicEvaluationMetric"/>
     </owl:NamedIndividual>
     
 
@@ -811,7 +811,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MeanSquaredError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MeanSquaredError">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Extrensic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ExtrensicEvaluationMetric"/>
     </owl:NamedIndividual>
     
 
@@ -843,7 +843,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Perplexity -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Perplexity">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Intrinsic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric"/>
     </owl:NamedIndividual>
     
 
@@ -851,7 +851,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Precision -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Precision">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Extrensic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ExtrensicEvaluationMetric"/>
     </owl:NamedIndividual>
     
 
@@ -867,7 +867,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Recall -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Recall">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Extrensic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ExtrensicEvaluationMetric"/>
     </owl:NamedIndividual>
     
 
