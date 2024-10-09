@@ -20,6 +20,8 @@
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
     </owl:Ontology>
+    
+
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -29,27 +31,36 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <!-- architectureType -->
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#architectureType -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#architectureType">
         <rdfs:comment>Specifies the architectural design of the language model.</rdfs:comment>
         <rdfs:label>Architecture Type</rdfs:label>
     </owl:ObjectProperty>
+    
 
-    <!-- dataUsedFor -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#dataUsedFor -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#dataUsedFor">
         <rdfs:comment>Indicates the purpose for which the data is used.</rdfs:comment>
     </owl:ObjectProperty>
+    
 
-    <!-- developedBy -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#developedBy -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#developedBy">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:ObjectProperty>
+    
 
-    <!-- generatedBy -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#generatedBy -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#generatedBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
@@ -57,58 +68,70 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DeepLearningModel"/>
         <rdfs:comment>Property to express that a Deep Learning Model generates a vector space.</rdfs:comment>
     </owl:ObjectProperty>
+    
 
-    <!-- hasArchitecture -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasArchitecture -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasArchitecture">
         <rdfs:comment>Defines the architecture of a model.</rdfs:comment>
     </owl:ObjectProperty>
+    
 
-    <!-- hasNumberOfExamples -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasNumberOfExamples -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasNumberOfExamples">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:comment>Property to express the size of some data.</rdfs:comment>
     </owl:ObjectProperty>
+    
 
-    <!-- hasSize -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasSize -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasSize">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SizeCategory"/>
         <rdfs:comment>Defines the size category of the language model.</rdfs:comment>
         <rdfs:label>Has Size</rdfs:label>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SizeCategory"/>
     </owl:ObjectProperty>
+    
 
-    <!-- hasUseCase -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasUseCase -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasUseCase">
         <rdfs:comment>Type of applications (e.g., chatbot, text generation).</rdfs:comment>
     </owl:ObjectProperty>
+    
 
-    <!-- hasVersion -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasVersion -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasVersion">
         <rdfs:comment>Specifies the version of a model.</rdfs:comment>
     </owl:ObjectProperty>
+    
 
-    <!-- isIntroducedIn -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#isIntroducedIn -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#isIntroducedIn">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#specializesInNLTask"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ScientificPaper"/>
     </owl:ObjectProperty>
+    
 
-    <!-- isLabelled -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#isLabelled -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#isLabelled">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:comment>Boolean Property to express whether some data is annotated or not.</rdfs:comment>
     </owl:ObjectProperty>
+    
 
-    <!-- isStoredIn -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#isStoredIn -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#isStoredIn">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#stores"/>
@@ -117,16 +140,20 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Database"/>
         <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#stores"/>
     </owl:ObjectProperty>
+    
 
-    <!-- specializesInNLTask -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#specializesInNLTask -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#specializesInNLTask">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#wasTrainedOn"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageTask"/>
     </owl:ObjectProperty>
+    
 
-    <!-- stores -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#stores -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#stores">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
@@ -134,8 +161,10 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
         <rdfs:comment xml:lang="en">Property to express that a database stores data.</rdfs:comment>
     </owl:ObjectProperty>
+    
 
-    <!-- storesNoSQL -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#storesNoSQL -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#storesNoSQL">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#stores"/>
@@ -143,8 +172,10 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#UnstructuredData"/>
         <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#storesSQL"/>
     </owl:ObjectProperty>
+    
 
-    <!-- storesSQL -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#storesSQL -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#storesSQL">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#stores"/>
@@ -152,16 +183,20 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#StructuredData"/>
         <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#storesVector"/>
     </owl:ObjectProperty>
+    
 
-    <!-- storesVector -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#storesVector -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#storesVector">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#storesNoSQL"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VectorStores"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordEmbedding"/>
     </owl:ObjectProperty>
+    
 
-    <!-- trainedVia -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#trainedVia -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#trainedVia">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
@@ -169,14 +204,18 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods"/>
         <rdfs:comment>Expresses the training method used.</rdfs:comment>
     </owl:ObjectProperty>
+    
 
-    <!-- wasTrainedOn -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#wasTrainedOn -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#wasTrainedOn">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
         <rdfs:label>Was Trained On</rdfs:label>
     </owl:ObjectProperty>
+    
+
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -186,51 +225,82 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <!-- hasAccuracy -->
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasAccuracy -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasAccuracy">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
+    
 
-    <!-- hasEntropy -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasEntropy -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasEntropy">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasF1Score"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
+    
 
-    <!-- hasF1Score -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasF1Score -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasF1Score">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasRecall"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
+    
 
-    <!-- hasPerplexity -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasNumberOfExamples -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasNumberOfExamples">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasPerplexity -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasPerplexity">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasEntropy"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
+    
 
-    <!-- hasPrecision -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasPrecision -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasPrecision">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
+    
 
-    <!-- hasRecall -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasRecall -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasRecall">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasPrecision"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#isLabelled -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#isLabelled">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -240,89 +310,135 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <!-- BigData -->
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ArchitectureType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ArchitectureType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#BigData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#BigData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
     </owl:Class>
+    
 
-    <!-- ComputerVisionTasks -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTasks -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTasks">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TasksSystem"/>
     </owl:Class>
+    
 
-    <!-- Conference -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Conference -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Conference"/>
+    
 
-    <!-- Data -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
+    
 
-    <!-- DataInstance -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DataInstance -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DataInstance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
         <rdfs:comment>Expresses an individual piece of data.</rdfs:comment>
     </owl:Class>
+    
 
-    <!-- Database -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DataUsagePurpose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DataUsagePurpose"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Database -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Database"/>
+    
 
-    <!-- DeepLearningModel -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DeepLearningModel -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DeepLearningModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IA"/>
         <rdfs:comment>A type of machine learning model that uses neural networks with multiple layers to analyze data and perform complex tasks.</rdfs:comment>
         <rdfs:label>Deep Learning Model</rdfs:label>
     </owl:Class>
+    
 
-    <!-- Developer -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
+    
 
-    <!-- DevelopmentData -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DevelopmentData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DevelopmentData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
     </owl:Class>
+    
 
-    <!-- Evaluation -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
+    
 
-    <!-- EvaluationMetrics -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationMetrics -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationMetrics">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
     </owl:Class>
+    
 
-    <!-- Extrinsic -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Extrinsic -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Extrinsic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationMetrics"/>
         <rdfs:comment>Evaluates a task to be performed.</rdfs:comment>
     </owl:Class>
+    
 
-    <!-- IA -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IA -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IA"/>
+    
 
-    <!-- ImageData -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ImageData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ImageData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VisualData"/>
     </owl:Class>
+    
 
-    <!-- Intrinsic -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Intrinsic -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Intrinsic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationMetrics"/>
         <rdfs:comment>Evaluates a property of the system itself.</rdfs:comment>
     </owl:Class>
+    
 
-    <!-- LLM -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM">
         <owl:equivalentClass>
@@ -344,70 +460,100 @@
         <rdfs:comment>A type of deep learning model designed to understand and generate human language. Often trained on large datasets and used in natural language processing tasks.</rdfs:comment>
         <rdfs:label>Large Language Model</rdfs:label>
     </owl:Class>
+    
 
-    <!-- LM -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LM -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LM">
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SLM"/>
     </owl:Class>
+    
 
-    <!-- MachineLearningModel -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MachineLearningModel -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MachineLearningModel">
         <rdfs:comment>A computational model that learns patterns from data to make predictions or decisions without being explicitly programmed for specific tasks.</rdfs:comment>
         <rdfs:label>Machine Learning Model</rdfs:label>
     </owl:Class>
+    
 
-    <!-- MultiModalModel -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalModel -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalModel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
     </owl:Class>
+    
 
-    <!-- NaturalLanguageProcessingTasks -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTasks">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TasksSystem"/>
         <rdfs:comment>Tasks related to processing and understanding human language.</rdfs:comment>
     </owl:Class>
+    
 
-    <!-- NaturalLanguageTask -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageTask -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageTask"/>
+    
 
-    <!-- NeuralLanguageModel -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NeuralLanguageModel -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NeuralLanguageModel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DeepLearningModel"/>
         <rdfs:comment>A language model that uses neural network architectures.</rdfs:comment>
     </owl:Class>
+    
 
-    <!-- NonRelationalDatabases -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NonRelationalDatabases -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NonRelationalDatabases">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Database"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#RelationalDatabases"/>
     </owl:Class>
+    
 
-    <!-- OpenSourceLLM -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#OpenSourceLLM -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#OpenSourceLLM">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
     </owl:Class>
+    
 
-    <!-- PropietaryLLM -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#PropietaryLLM -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#PropietaryLLM">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
     </owl:Class>
+    
 
-    <!-- RelationalDatabases -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#RelationalDatabases -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#RelationalDatabases">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Database"/>
     </owl:Class>
+    
 
-    <!-- SLM -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SLM -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SLM">
         <owl:equivalentClass>
@@ -427,138 +573,179 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LLM"/>
     </owl:Class>
+    
 
-    <!-- ScientificPaper -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ScientificPaper -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ScientificPaper"/>
+    
 
-    <!-- SelfSupervisedTraining -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SelfSupervisedTraining -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SelfSupervisedTraining">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods"/>
     </owl:Class>
+    
 
-    <!-- SizeCategory -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SizeCategory -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SizeCategory">
         <rdfs:comment>Represents the size category of a language model (e.g., small, medium, large).</rdfs:comment>
     </owl:Class>
+    
 
-    <!-- SpokenData -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SpokenData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SpokenData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VideoData"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WrittenData"/>
     </owl:Class>
+    
 
-    <!-- StatisticalLanguageModel -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#StatisticalLanguageModel -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#StatisticalLanguageModel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MachineLearningModel"/>
     </owl:Class>
+    
 
-    <!-- StructuredData -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#StructuredData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#StructuredData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#UnstructuredData"/>
     </owl:Class>
+    
 
-    <!-- SupervisedTraining -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SupervisedTraining -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SupervisedTraining">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods"/>
     </owl:Class>
+    
 
-    <!-- TasksSystem -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TasksSystem -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TasksSystem">
         <rdfs:comment>Tasks that machine learning and deep learning systems aim to solve.</rdfs:comment>
     </owl:Class>
+    
 
-    <!-- TestingData -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TestingData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TestingData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DevelopmentData"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingData"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ValidationData"/>
-        <rdfs:comment>Data used to test the performance of a machine learning model after training. It helps evaluate the model's generalization capability.</rdfs:comment>
+        <rdfs:comment>Data used to test the performance of a machine learning model after training. It helps evaluate the model&apos;s generalization capability.</rdfs:comment>
         <rdfs:label>Testing Data</rdfs:label>
     </owl:Class>
+    
 
-    <!-- TrainingData -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DevelopmentData"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ValidationData"/>
     </owl:Class>
+    
 
-    <!-- TrainingMethods -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods">
         <rdfs:comment>Methods used to train machine learning models.</rdfs:comment>
     </owl:Class>
+    
 
-    <!-- UnstructuredData -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#UnstructuredData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#UnstructuredData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
     </owl:Class>
+    
 
-    <!-- UnsupervisedTraining -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#UnsupervisedTraining -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#UnsupervisedTraining">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods"/>
         <rdfs:comment>Training methods where models learn patterns from unlabeled data.</rdfs:comment>
     </owl:Class>
+    
 
-    <!-- ValidationData -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ValidationData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ValidationData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DevelopmentData"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingData"/>
         <rdfs:comment>Data used to validate the performance of a machine learning model during training. It helps tune model parameters and avoid overfitting.</rdfs:comment>
         <rdfs:label>Validation Data</rdfs:label>
     </owl:Class>
+    
 
-    <!-- VectorSpace -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VectorSpace -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VectorSpace"/>
+    
 
-    <!-- VectorStores -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VectorStores -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VectorStores">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NonRelationalDatabases"/>
     </owl:Class>
+    
 
-    <!-- VideoData -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VideoData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VideoData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VisualData"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WrittenData"/>
     </owl:Class>
+    
 
-    <!-- VisualData -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VisualData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VisualData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
     </owl:Class>
+    
 
-    <!-- WordEmbedding -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordEmbedding -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordEmbedding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VectorSpace"/>
         <rdfs:comment>Techniques used to represent words in vector space.</rdfs:comment>
     </owl:Class>
+    
 
-    <!-- WrittenData -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WrittenData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WrittenData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
     </owl:Class>
+    
+
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -568,24 +755,50 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <!-- small -->
+    
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#small">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SizeCategory"/>
-    </owl:NamedIndividual>
 
-    <!-- Neural -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Neural -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Neural">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ArchitectureType"/>
     </owl:NamedIndividual>
+    
 
-    <!-- Training -->
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Training -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Training">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DataUsagePurpose"/>
     </owl:NamedIndividual>
+    
 
-    <!-- Additional individuals can be added here as needed -->
 
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#small -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#small">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SizeCategory"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasNumberOfExamples">
+        <rdfs:comment>Property to express the size of some data.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#isLabelled">
+        <rdfs:comment>Boolean Property to express whether some data is annotated or not.</rdfs:comment>
+    </rdf:Description>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
