@@ -586,7 +586,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationTasks">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task"/>
-        <rdfs:comment>The task and specific dataset that the evaluation was performed for.</rdfs:comment>
+        <rdfs:comment>The task and specific dataset that the model evaluation was performed on.</rdfs:comment>
     </owl:Class>
     
 
@@ -630,7 +630,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LanguageModel"/>
         <acronym>LLM</acronym>
-        <rdfs:comment>A type of deep learning model designed to understand and generate human language. Often trained on large datasets and used in natural language processing tasks.</rdfs:comment>
     </owl:Class>
     
 
@@ -681,7 +680,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NeuralLanguageModel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#StatisticalLanguageModel"/>
-        <rdfs:comment>##### not a subclass of deeplearning model bc language models can be statistical</rdfs:comment>
     </owl:Class>
     
 
@@ -691,7 +689,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NonRelationalDatabases">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Database"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#RelationalDatabases"/>
-        <rdfs:comment>By written data we refer to strings of characters. This definitions allows us to avoid visual data that contains text.</rdfs:comment>
     </owl:Class>
     
 
@@ -783,7 +780,7 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task">
-        <rdfs:comment>Tasks that machine learning and deep learning systems aim to solve.</rdfs:comment>
+        <acronym>General task that models aim to solve.</acronym>
     </owl:Class>
     
 
@@ -798,9 +795,7 @@
 
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods">
-        <rdfs:comment>##############adding this class bc I need it to define word embeddings</rdfs:comment>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods"/>
     
 
 
@@ -816,7 +811,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#UnsupervisedTraining">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods"/>
-        <rdfs:comment>add the individuals skip k gram, predict next word as individuals</rdfs:comment>
     </owl:Class>
     
 
