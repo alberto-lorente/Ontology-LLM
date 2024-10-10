@@ -516,12 +516,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Conference -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Conference"/>
-    
-
-
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Data"/>
