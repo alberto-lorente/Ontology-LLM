@@ -151,6 +151,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasGoal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasGoal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTask"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalTask"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasUseCase -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasUseCase">
@@ -680,8 +691,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationTasks">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task"/>
-        <rdfs:comment>The task and specific dataset that the model evaluation was performed on.</rdfs:comment>
         <rdfs:comment>It is disjoint with tasks because we aim to express something meaninfully different: the specific tasks and dataset with which a model was developed versus general tasks that models aim to solve.</rdfs:comment>
+        <rdfs:comment>The task and specific dataset that the model evaluation was performed on.</rdfs:comment>
     </owl:Class>
     
 
