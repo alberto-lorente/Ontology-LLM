@@ -86,7 +86,12 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#developedBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ArchitectureType"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LanguageModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VectorSpace"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordEmbedding"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:ObjectProperty>
     
@@ -323,6 +328,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#trainedVia">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VectorSpace"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordEmbedding"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SelfSupervisedTraining"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TrainingMethods"/>
         <rdfs:comment>Expresses the training method used.</rdfs:comment>
     </owl:ObjectProperty>
@@ -548,13 +555,16 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AlternativeArchitecture">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ArchitectureType"/>
+        <rdfs:comment>Alternative class to leave room for possible developments in the future.</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ArchitectureType -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ArchitectureType"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ArchitectureType">
+        <rdfs:comment>Class for the types of architectures a language model can be built from.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -651,7 +661,9 @@
 
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation">
+        <rdfs:comment>Class for the tasks and metrics to evaluate a language model.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -669,6 +681,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task"/>
         <rdfs:comment>The task and specific dataset that the model evaluation was performed on.</rdfs:comment>
+        <rdfs:comment>It is disjoint with tasks because we aim to express something meaninfully different: the specific tasks and dataset with which a model was developed versus general tasks that models aim to solve.</rdfs:comment>
     </owl:Class>
     
 
@@ -768,6 +781,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MixedArchitecture">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ArchitectureType"/>
+        <rdfs:comment>Class dedicated to the possible mixtures of architectures given the blended nature of more complex models.</rdfs:comment>
     </owl:Class>
     
 
@@ -1787,6 +1801,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MikolovEtAl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MikolovEtAl"/>
+    
+
+
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Mila -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Mila">
@@ -2344,6 +2364,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Transformers">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NeuralArchitecture"/>
+        <introducedWhen rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-12T00:00:00</introducedWhen>
     </owl:NamedIndividual>
     
 
@@ -2437,6 +2458,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Word2Vec">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordEmbedding"/>
+        <introducedWhen rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-16T00:00:00</introducedWhen>
     </owl:NamedIndividual>
     
 
@@ -2650,6 +2672,9 @@
 
     <rdf:Description rdf:about="http://dbpedia.org/property/">
         <rdfs:label xml:lang="en">0-</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TraditionalArchitecture">
+        <rdfs:comment>Statistical Architectures</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
