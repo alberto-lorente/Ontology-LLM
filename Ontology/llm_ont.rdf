@@ -701,6 +701,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
+        <rdfs:comment>LLMs that are designed to handle a wide variety of tasks and domains without specialization.</rdfs:comment>
     </owl:Class>
     
 
@@ -737,6 +738,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LanguageModel">
         <acronym>LM</acronym>
+        <rdfs:comment>Type of machine learning model trained to conduct a probability distribution over words.</rdfs:comment>
     </owl:Class>
     
 
@@ -757,6 +759,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LanguageModel"/>
         <acronym>LLM</acronym>
+        <rdfs:comment>Neural networks that use huge volumes of data to understand human language</rdfs:comment>
     </owl:Class>
     
 
@@ -773,6 +776,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalLargeLanguageModel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
+        <rdfs:comment>LLMs that are capable of processing and generating text in multiple languages.</rdfs:comment>
     </owl:Class>
     
 
@@ -809,6 +813,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
+        <rdfs:comment>LLMs that are fine-tuned for a particular domain or industry, such as healthcare or legal.</rdfs:comment>
     </owl:Class>
     
 
@@ -1048,6 +1053,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
+        <rdfs:comment>LLMs that can learn to perform a task from a few examples or demonstrations without extensive training.</rdfs:comment>
     </owl:Class>
     
 
