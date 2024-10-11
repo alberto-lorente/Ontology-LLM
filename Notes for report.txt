@@ -2,6 +2,8 @@ dataUsedFor is not functional, a set of data can only be used for both analysis 
 
 generatedBy not functional because you may ensemble several training methods and models to generate the vector space.
 
-introducedTechnology not functional, a paper can introduce more than one thing.
+disjoint evaluation task and task - why? general tasks can be individuals, used for specializes in nlp task BUT EVALUATIONS for models are run on specific datasets so we cant say that a model has an f1 score in a general task, there would be info missing
 
-disjoint evaluation task and task
+Arch types - choose to leave it more open since it is not the primary focus or our onto
+
+data - written data is that which is comprise of concatenated string characters - important distinction because with a different definition of written data, we could say that text within a signal in an image could be written data, for example 
