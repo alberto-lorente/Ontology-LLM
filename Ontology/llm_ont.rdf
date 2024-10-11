@@ -2130,9 +2130,7 @@
 
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordEmbeddings -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordEmbeddings">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#UnsupervisedTraining"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordEmbeddings"/>
     
 
 
