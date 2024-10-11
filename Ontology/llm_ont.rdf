@@ -868,9 +868,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AI21_Labs -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AI21Labs -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AI21_Labs">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AI21Labs">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
@@ -892,17 +892,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Alibaba_DAMO_Academy -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AlibabaDamoAcademy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Alibaba_DAMO_Academy">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AlibabaDamoAcademy">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Allen_Institute_for_AI -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AllenInstituteForAI -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Allen_Institute_for_AI">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AllenInstituteForAI">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
@@ -911,6 +911,14 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AlternativeArchitecure -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AlternativeArchitecure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Analysis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Analysis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationTasks"/>
+    </owl:NamedIndividual>
     
 
 
@@ -938,9 +946,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Attention-CNN_Models -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Attention-CNNModels -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Attention-CNN_Models">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Attention-CNNModels">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MixedArchitecture"/>
     </owl:NamedIndividual>
     
@@ -996,9 +1004,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Commonsense_Reasoning -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#CommonsenseReasoning -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Commonsense_Reasoning">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#CommonsenseReasoning">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationTasks"/>
     </owl:NamedIndividual>
     
@@ -1012,9 +1020,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Cosine_Similarity -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#CosineSimilarity -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Cosine_Similarity">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#CosineSimilarity">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric"/>
     </owl:NamedIndividual>
     
@@ -1051,17 +1059,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Decision_Trees -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DecisionTrees -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Decision_Trees">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DecisionTrees">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TraditionalArchitecture"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Deep_Hybrid_Models -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DeepHybridModels -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Deep_Hybrid_Models">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#DeepHybridModels">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MixedArchitecture"/>
     </owl:NamedIndividual>
     
@@ -1109,6 +1117,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#F-1Score">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ExtrensicEvaluationMetric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#FaceRecognition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#FaceRecognition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTask"/>
     </owl:NamedIndividual>
     
 
@@ -1187,34 +1203,51 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#GloVe -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#GloVe">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#StatisticalLanguageModel"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Glove -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Glove">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#StatisticalLanguageModel"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordEmbedding"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Google_DeepMind -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#GoogleDeepmind -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Google_DeepMind">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#GoogleDeepmind">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IBM_Research -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IBMResearch -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IBM_Research">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IBMResearch">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ImageCaptioning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ImageCaptioning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalTask"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ImageClassification -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ImageClassification">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTask"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ImageGeneration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ImageGeneration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTask"/>
     </owl:NamedIndividual>
     
 
@@ -1227,9 +1260,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Kolmogorov-Arnold_Networks -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Kolomogorov-ArnoldNetworks -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Kolmogorov-Arnold_Networks">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Kolomogorov-ArnoldNetworks">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AlternativeArchitecture"/>
     </owl:NamedIndividual>
     
@@ -1268,15 +1301,8 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MachineTranslation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MachineTranslation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Machine_Translation -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Machine_Translation">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
@@ -1297,17 +1323,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Meta_AI -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MetaAI -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Meta_AI">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MetaAI">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Microsoft_Research -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MicrosoftResearch -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Microsoft_Research">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MicrosoftResearch">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
@@ -1337,9 +1363,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Mistral_AI -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MistralAI -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Mistral_AI">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MistralAI">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
@@ -1361,9 +1387,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Mutual_Information -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MutualInformation -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Mutual_Information">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MutualInformation">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric"/>
     </owl:NamedIndividual>
     
@@ -1381,20 +1407,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NLL">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric"/>
-        <owl:sameAs rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Negative_Log-Likelihood"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Negative_Log-Likelihood -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NVIDIAResearch -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Negative_Log-Likelihood"/>
-    
-
-
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NVIDIA_Research -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NVIDIA_Research">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NVIDIAResearch">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
@@ -1408,9 +1427,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Negative_Log-Likelihood -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NegativeLog-Likelihood -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Negative_Log-Likelihood">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NegativeLog-Likelihood">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric"/>
     </owl:NamedIndividual>
     
@@ -1438,6 +1457,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ObjectDetection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ObjectDetection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTask"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#OpenAI -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#OpenAI">
@@ -1446,9 +1473,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Oracle_Database -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#OracleDatabase -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Oracle_Database">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#OracleDatabase">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#RelationalDatabases"/>
     </owl:NamedIndividual>
     
@@ -1462,9 +1489,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#PaLM_2 -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#PaLM2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#PaLM_2">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#PaLM2">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ProprietaryLLM"/>
     </owl:NamedIndividual>
     
@@ -1510,9 +1537,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Question_Answering -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#QuestionAnswering -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Question_Answering">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#QuestionAnswering">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationTasks"/>
     </owl:NamedIndividual>
     
@@ -1571,9 +1598,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SQL_Server -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SQLServer -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SQL_Server">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SQLServer">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#RelationalDatabases"/>
     </owl:NamedIndividual>
     
@@ -1582,20 +1609,20 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SVM -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SVM">
-        <owl:sameAs rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Support_Vector_Machines"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SupportVectorMachines"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Support_Vector_Machines -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SupportVectorMachines -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Support_Vector_Machines"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SupportVectorMachines"/>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Salesforce_AI_Research -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SalesforceAIResearch -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Salesforce_AI_Research">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SalesforceAIResearch">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
@@ -1609,18 +1636,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SentimentAnalysis -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SemanticSegmentation -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SentimentAnalysis">
-        <rdfs:label>Sentiment Analysis</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SemanticSegmentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTask"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Sentiment_Analysis -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Speech-to-TextWithVisualContext -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Sentiment_Analysis">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationTasks"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Speech-to-TextWithVisualContext">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalTask"/>
     </owl:NamedIndividual>
     
 
@@ -1633,17 +1660,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Spiking_Neural_Networks -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SpikingNeuralNetworks -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Spiking_Neural_Networks">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SpikingNeuralNetworks">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#AlternativeArchitecture"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Stability_AI -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#StabilityAI -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Stability_AI">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#StabilityAI">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
@@ -1652,14 +1679,15 @@
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Summarization -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Summarization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationTasks"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Support_Vector_Machines -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SupportVectorMachines -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Support_Vector_Machines">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#SupportVectorMachines">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TraditionalArchitecture"/>
     </owl:NamedIndividual>
     
@@ -1681,17 +1709,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Technology_Innovation_Institute -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TechnologyInnovationInstitute -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Technology_Innovation_Institute">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TechnologyInnovationInstitute">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Tencent_AI_Lab -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TencentAILab -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Tencent_AI_Lab">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TencentAILab">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
@@ -1705,10 +1733,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Text_Summarization -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Text-to-ImageGeneration -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Text_Summarization">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationTasks"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Text-to-ImageGeneration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalTask"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TheFundamentalAIResearch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TheFundamentalAIResearch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
     </owl:NamedIndividual>
     
 
@@ -1721,14 +1757,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#The_Fundamental_AI_Research -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#The_Fundamental_AI_Research">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Developer"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TinyBERT -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#TinyBERT">
@@ -1737,9 +1765,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Token-level_Accuracy -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Token-levelAccuracy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Token-level_Accuracy">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Token-levelAccuracy">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric"/>
     </owl:NamedIndividual>
     
@@ -1783,6 +1811,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VQA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VQA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalTask"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VisualQuestionAnswering"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VisualQuestionAnswering -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VisualQuestionAnswering"/>
+    
+
+
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ValidatingPurpose -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ValidatingPurpose">
@@ -1791,18 +1834,34 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WER -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VideoUnderstanding -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WER">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric"/>
-        <owl:sameAs rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Word_Error_Rate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VideoUnderstanding">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalTask"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Word_Error_Rate -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VisualQuestionAnswering -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Word_Error_Rate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#VisualQuestionAnswering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalTask"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WER -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WER">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordErrorRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordErrorRate -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordErrorRate"/>
     
 
 
@@ -1823,9 +1882,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Word_Error_Rate -->
+    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordErrorRate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Word_Error_Rate">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#WordErrorRate">
         <rdf:type rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#IntrinsicEvaluationMetric"/>
     </owl:NamedIndividual>
     
