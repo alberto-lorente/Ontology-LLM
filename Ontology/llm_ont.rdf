@@ -151,17 +151,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasGoal -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasGoal">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#ComputerVisionTask"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalTask"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#NaturalLanguageProcessingTask"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasUseCase -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#hasUseCase">
@@ -691,8 +680,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#EvaluationTasks">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Evaluation"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#Task"/>
-        <rdfs:comment>It is disjoint with tasks because we aim to express something meaninfully different: the specific tasks and dataset with which a model was developed versus general tasks that models aim to solve.</rdfs:comment>
         <rdfs:comment>The task and specific dataset that the model evaluation was performed on.</rdfs:comment>
+        <rdfs:comment>It is disjoint with tasks because we aim to express something meaninfully different: the specific tasks and dataset with which a model was developed versus general tasks that models aim to solve.</rdfs:comment>
     </owl:Class>
     
 
@@ -783,7 +772,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LanguageModel"/>
         <acronym>LLM</acronym>
-        <rdfs:comment>Neural networks that use huge volumes of data to understand human language</rdfs:comment>
+        <rdfs:comment>Language model trained on large amounts of data</rdfs:comment>
     </owl:Class>
     
 
@@ -801,7 +790,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#MultiModalLargeLanguageModel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
-        <rdfs:comment>LLMs that are capable of processing and generating text in multiple languages.</rdfs:comment>
+        <rdfs:comment>A type of LLMs that are capable of performing multi-modal tasks.</rdfs:comment>
     </owl:Class>
     
 
@@ -838,7 +827,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
-        <rdfs:comment>LLMs that are fine-tuned for a particular domain or industry, such as healthcare or legal.</rdfs:comment>
+        <rdfs:comment> LLMs that are capable of solving tasks in multiple languages.</rdfs:comment>
     </owl:Class>
     
 
@@ -1078,7 +1067,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alber/ontologies/2024/9/untitled-ontology-45#LargeLanguageModel"/>
-        <rdfs:comment>LLMs that can learn to perform a task from a few examples or demonstrations without extensive training.</rdfs:comment>
+        <rdfs:comment>LLMs that are trained to perform a specific task.</rdfs:comment>
     </owl:Class>
     
 
