@@ -1,0 +1,7 @@
+dataUsedFor is not functional, a set of data can only be used for both analysis and training.
+
+generatedBy not functional because you may ensemble several training methods and models to generate the vector space.
+
+introducedTechnology not functional, a paper can introduce more than one thing.
+
+disjoint evaluation task and task
